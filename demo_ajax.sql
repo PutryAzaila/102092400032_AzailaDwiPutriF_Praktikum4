@@ -1,0 +1,8 @@
+CREATE DATABASE demo_ajax;
+USE demo_ajax;
+
+CREATE TABLE demo_crud (
+  id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  nama VARCHAR(50) NOT NULL,
+  email VARCHAR(50) NOT NULL
+);
