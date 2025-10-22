@@ -1,5 +1,5 @@
 <?php
 echo "Ini data yang ditampilkan menggunakan metode POST <br>";
-echo $_POST['nama']."<br>";
-echo $_POST['nim'];
+echo $_GET['nama']."<br>";
+echo $_GET['nim'];
 ?>
